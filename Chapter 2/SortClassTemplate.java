@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.*;
+
 public class Example
 {
     public static void sort(Comparable[] a)
