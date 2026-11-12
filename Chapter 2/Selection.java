@@ -35,7 +35,7 @@ public class Selection
     }
 
     public static void main(String[] args)
-    {
+    { // Usage:  '4 6 5 8 4 7 3 1 1' | java -cp ".;algs4.jar" Selection.java
         String[] a = StdIn.readAllStrings();
         sort(a);
         assert isSorted(a);
